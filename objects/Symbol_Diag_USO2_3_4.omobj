@@ -1,4 +1,4 @@
-<type access-modifier="private" name="Symbol_Diag_USO2" display-name="Symbol_Diag_USO2" uuid="5b8248b5-244b-4516-9d8c-34032e3c2fc9" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14">
+<type access-modifier="private" name="Symbol_Diag_USO2_3_4" display-name="Symbol_Diag_USO2_3_4" uuid="5b8248b5-244b-4516-9d8c-34032e3c2fc9" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14">
 	<designed target="X" value="0"/>
 	<designed target="Y" value="0"/>
 	<designed target="Rotation" value="0"/>
@@ -14,7 +14,7 @@
 		<designed target="Visible" value="true"/>
 		<designed target="Enabled" value="true"/>
 		<designed target="Tooltip" value=""/>
-		<designed target="Width" value="135"/>
+		<designed target="Width" value="146"/>
 		<designed target="Height" value="112"/>
 		<designed target="RoundingRadius" value="0"/>
 		<designed target="PenColor" value="0xffff0000"/>
@@ -36,7 +36,7 @@
 		<designed target="Visible" value="true"/>
 		<designed target="Enabled" value="true"/>
 		<designed target="Tooltip" value=""/>
-		<designed target="Width" value="114"/>
+		<designed target="Width" value="126"/>
 		<designed target="Height" value="67"/>
 		<designed target="RoundingRadius" value="0"/>
 		<designed target="PenColor" value="4278190080"/>
@@ -77,7 +77,7 @@
 			<designed target="BrushStyle" value="0"/>
 		</object>
 		<object access-modifier="private" name="Ellipse_4" display-name="Ellipse_4" uuid="c67eb596-78d2-485a-a2e0-e71249cd7db2" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-			<designed target="X" value="108"/>
+			<designed target="X" value="120"/>
 			<designed target="Y" value="61"/>
 			<designed target="Rotation" value="0"/>
 			<designed target="Scale" value="1"/>
@@ -93,7 +93,7 @@
 			<designed target="BrushStyle" value="0"/>
 		</object>
 		<object access-modifier="private" name="Ellipse_5" display-name="Ellipse_5" uuid="ef6ff2ed-df0a-459f-99d3-1dc3a5cd970f" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-			<designed target="X" value="108"/>
+			<designed target="X" value="120"/>
 			<designed target="Y" value="3"/>
 			<designed target="Rotation" value="0"/>
 			<designed target="Scale" value="1"/>
@@ -107,6 +107,761 @@
 			<designed target="PenWidth" value="1"/>
 			<designed target="BrushColor" value="4278190080"/>
 			<designed target="BrushStyle" value="0"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Module_A1" display-name="Module_A1" uuid="ab7a6419-d06a-4a57-8921-85f431650be6" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<designed target="X" value="19"/>
+		<designed target="Y" value="16"/>
+		<designed target="Rotation" value="0"/>
+		<designed target="Scale" value="1"/>
+		<designed target="Visible" value="true"/>
+		<designed target="Enabled" value="true"/>
+		<designed target="Tooltip" value=""/>
+		<designed target="Width" value="12"/>
+		<designed target="Height" value="80"/>
+		<designed target="RoundingRadius" value="0"/>
+		<designed target="PenColor" value="4278190080"/>
+		<designed target="PenStyle" value="1"/>
+		<designed target="PenWidth" value="1"/>
+		<designed target="BrushColor" value="0xffb7b7b7"/>
+		<designed target="BrushStyle" value="1"/>
+		<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="d7aa8195-357e-4189-ac0c-b19c7453e06d" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="73"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="7"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="0"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="7dd7578e-dbd6-4b73-9fbc-566f967a7f42" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="3"/>
+			<designed target="Y" value="35"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="6"/>
+			<designed target="Height" value="11"/>
+			<designed target="RoundingRadius" value="2"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="1529b7e3-b2af-471f-a057-7a5b541ffee1" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
+				<designed target="X" value="1.5"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="3"/>
+				<designed target="Height" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+				<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="e39dbeed-7cfb-46ac-a89f-52f10b89da11" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+					<designed target="X" value="0"/>
+					<designed target="Y" value="0"/>
+				</object>
+				<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="ca263653-7554-4c0e-a975-0b9eb6414a91" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+					<designed target="X" value="3"/>
+					<designed target="Y" value="0"/>
+				</object>
+			</object>
+			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="21874feb-2370-4d09-90ce-79f581425363" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="6"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="fdf195da-524a-4779-b3f2-d5ca83beb08c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="0"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="7"/>
+			<designed target="RoundingRadius" value="1"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="0"/>
+			<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="8b4bfd99-74b7-4280-9592-3901acc2e3d9" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="5"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_4" display-name="Rectangle_4" uuid="e4ad61c9-9589-4ba5-8c0a-ed7b50f880dd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="7"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="21"/>
+			<designed target="RoundingRadius" value="1"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="89e7be8e-e39e-4540-a897-42736ac5f428" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="1c9c4bc3-1166-4b70-a39b-89808774113a" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="5"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="737606c0-dc56-41f8-ae00-ed6aa5ab08cd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="7"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="f2db2df2-7149-4d9e-8a33-e55c5b51b7df" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="85"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="7"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffb7b7b7"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="1fccfc87-45ef-4c01-aae6-f2292b46b38f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="9574b464-f76b-4461-8466-83facc99da09" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="-5"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="fed342a3-400c-438d-a28e-d160c1a9f22a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="12"/>
+				<designed target="Y" value="-5"/>
+			</object>
+			<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="333e7605-aea4-460a-bd7f-7a53a572c4a6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="12"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="2e10e7e2-611c-416d-a757-46931fbe811f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="9"/>
+				<designed target="Y" value="2"/>
+			</object>
+			<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="d8b5c803-2051-4e78-b8a7-46e357b4205e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="3"/>
+				<designed target="Y" value="2"/>
+			</object>
+			<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="d6080d00-6820-425f-8717-10b961388a52" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="ffcdfc3b-ddec-40c4-a98b-75d9d3a1990a" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="5"/>
+				<designed target="Y" value="-3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_6" display-name="Rectangle_6" uuid="cbd83b8a-ce57-4da2-939b-ecb92a4b7b37" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="2"/>
+			<designed target="Y" value="52"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="8"/>
+			<designed target="Height" value="3"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="1"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="2acd43e0-c588-41ec-9122-e108acbe24b1" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="3"/>
+			<designed target="Y" value="60"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="6"/>
+			<designed target="Height" value="11"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+		</object>
+		<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="cad437f4-372a-49c6-8dc6-d11d08d8b885" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A1"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_2" display-name="Text_2" uuid="80128d01-05fe-45ae-b55f-3bf49b3945f0" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="24"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A2"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_3" display-name="Text_3" uuid="0d0567de-0ed1-4a06-b75a-5514fa24e272" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="36"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A3"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_4" display-name="Text_4" uuid="fd5f1151-ad97-49c7-8dfe-a39802ba4ea2" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="48"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A4"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_5" display-name="Text_5" uuid="900444a4-c3cd-4b83-bb58-36c846186e1e" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="60"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A5"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_6" display-name="Text_6" uuid="c5275272-5ee1-4a39-a7da-3970cb76e6a8" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="73"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A6"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+		<object access-modifier="private" name="Text_7" display-name="Text_7" uuid="2be9fd41-763c-429b-bb5f-7b4d78714893" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
+			<designed target="X" value="84"/>
+			<designed target="Y" value="87"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="10"/>
+			<designed target="Text" value="A7"/>
+			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
+			<designed target="FontColor" value="0xfff9f9f9"/>
+			<designed target="TextAlignment" value="132"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Module_A2" display-name="Module_A2" uuid="6ce34f91-cf6e-4e28-8577-ed0d28f341e2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<designed target="X" value="31"/>
+		<designed target="Y" value="16"/>
+		<designed target="Rotation" value="0"/>
+		<designed target="Scale" value="1"/>
+		<designed target="Visible" value="true"/>
+		<designed target="Enabled" value="true"/>
+		<designed target="Tooltip" value=""/>
+		<designed target="Width" value="24"/>
+		<designed target="Height" value="80"/>
+		<designed target="RoundingRadius" value="0"/>
+		<designed target="PenColor" value="4278190080"/>
+		<designed target="PenStyle" value="1"/>
+		<designed target="PenWidth" value="1"/>
+		<designed target="BrushColor" value="0xffb7b7b7"/>
+		<designed target="BrushStyle" value="1"/>
+		<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="4146b9bf-e755-409f-89bb-f04028520592" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="73"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="24"/>
+			<designed target="Height" value="7"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="0"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="4aa64530-7429-4b27-8231-a1c5b52a567f" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="15"/>
+			<designed target="Y" value="35"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="6"/>
+			<designed target="Height" value="11"/>
+			<designed target="RoundingRadius" value="1"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="39145e62-9702-4155-8c97-0bfdcfeb07d5" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="-2"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="d9c15444-27cc-42bb-9d59-47d9e9f7b948" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="2"/>
+				<designed target="Y" value="11"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="638e2cc7-2535-43c5-88de-2411e36479a5" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="0"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="24"/>
+			<designed target="Height" value="7"/>
+			<designed target="RoundingRadius" value="1"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="0"/>
+			<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="e985a05f-8b01-44ad-964b-c25499a6c010" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="6"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="f8f9ad30-d4c2-4135-957a-d85d88d89fb2" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="16"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_4" display-name="Rectangle_4" uuid="c54af9d3-3f58-443f-bc21-381abea8077c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="0"/>
+			<designed target="Y" value="7"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="24"/>
+			<designed target="Height" value="21"/>
+			<designed target="RoundingRadius" value="1"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="d5ef2227-2139-48a8-b0d9-afe19c9eda96" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="20"/>
+				<designed target="Y" value="3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="ecda3c89-95c3-4c3e-ad61-58aa2b2f5d3a" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="20"/>
+				<designed target="Y" value="5"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="9b52a632-82d2-4301-851a-766f81903d2a" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
+			<designed target="X" value="12"/>
+			<designed target="Y" value="85"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="12"/>
+			<designed target="Height" value="7"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffb7b7b7"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="25af5bf7-f68e-4f23-ae64-e38560408139" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="18a1b833-432d-46a3-9453-3765ca211af6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="-5"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="61e22c98-d4b1-45fe-9d98-cbdd580b9cbf" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="12"/>
+				<designed target="Y" value="-5"/>
+			</object>
+			<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="8d01d7a6-69c2-4da1-a0dd-1021cdb225e2" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="12"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="64cf4911-73cb-4092-9116-3c8329b48fc8" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="9"/>
+				<designed target="Y" value="2"/>
+			</object>
+			<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="3ad4603a-7cac-46dc-a46f-17a1071d7904" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="3"/>
+				<designed target="Y" value="2"/>
+			</object>
+			<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="6c5d8b49-ac22-44c2-97a5-50350e1ed569" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="0"/>
+			</object>
+			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="6f56043c-a544-41c4-aeb7-783c7da24a3c" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+				<designed target="X" value="5"/>
+				<designed target="Y" value="-3"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="2"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="4278190080"/>
+				<designed target="BrushStyle" value="0"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_5" display-name="Rectangle_5" uuid="28a95818-e9c6-4ed6-a81d-8056abadabe0" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="3"/>
+			<designed target="Y" value="31"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="8"/>
+			<designed target="Height" value="3"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="1"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_6" display-name="Rectangle_6" uuid="9c3050d5-034f-4f57-a1b0-3f98b670ef45" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="15"/>
+			<designed target="Y" value="60"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="6"/>
+			<designed target="Height" value="11"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="0xffe0e0e0"/>
+			<designed target="BrushStyle" value="1"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="e95995e9-bc68-4c21-b80a-d0a7dec128c8" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="13"/>
+			<designed target="Y" value="51"/>
+			<designed target="Rotation" value="0"/>
+			<designed target="Scale" value="1"/>
+			<designed target="Visible" value="true"/>
+			<designed target="Enabled" value="true"/>
+			<designed target="Tooltip" value=""/>
+			<designed target="Width" value="8"/>
+			<designed target="Height" value="7"/>
+			<designed target="RoundingRadius" value="0"/>
+			<designed target="PenColor" value="4278190080"/>
+			<designed target="PenStyle" value="1"/>
+			<designed target="PenWidth" value="1"/>
+			<designed target="BrushColor" value="4278190080"/>
+			<designed target="BrushStyle" value="1"/>
+			<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="2895e10d-fda2-4b9d-8d1f-4e327588c337" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="3"/>
+				<designed target="Y" value="1"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="5"/>
+				<designed target="Height" value="5"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="0xffe0e0e0"/>
+				<designed target="BrushStyle" value="1"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_8" display-name="Rectangle_8" uuid="c42aa0e1-4045-4566-8356-de669ea498b2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="1"/>
+				<designed target="Y" value="2"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="2"/>
+				<designed target="Height" value="3"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="0xffe0e0e0"/>
+				<designed target="BrushStyle" value="1"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_9" display-name="Rectangle_9" uuid="8d7b2c7d-acb4-4e37-9215-d000502bb097" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="0"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="3"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="0xffe0e0e0"/>
+				<designed target="BrushStyle" value="1"/>
+			</object>
+			<object access-modifier="private" name="Rectangle_10" display-name="Rectangle_10" uuid="8fd71bd3-85e6-494f-ba0e-73e8dc19d805" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="0"/>
+				<designed target="Y" value="5"/>
+				<designed target="Rotation" value="0"/>
+				<designed target="Scale" value="1"/>
+				<designed target="Visible" value="true"/>
+				<designed target="Enabled" value="true"/>
+				<designed target="Tooltip" value=""/>
+				<designed target="Width" value="3"/>
+				<designed target="Height" value="2"/>
+				<designed target="RoundingRadius" value="0"/>
+				<designed target="PenColor" value="4278190080"/>
+				<designed target="PenStyle" value="1"/>
+				<designed target="PenWidth" value="1"/>
+				<designed target="BrushColor" value="0xffe0e0e0"/>
+				<designed target="BrushStyle" value="1"/>
+			</object>
 		</object>
 	</object>
 	<object access-modifier="private" name="Module_A3" display-name="Module_A3" uuid="3e3f7845-10c6-41f0-a352-5418a9260b68" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
@@ -1400,15 +2155,15 @@
 			</object>
 		</object>
 	</object>
-	<object access-modifier="private" name="Module_A2" display-name="Module_A2" uuid="6ce34f91-cf6e-4e28-8577-ed0d28f341e2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-		<designed target="X" value="31"/>
+	<object access-modifier="private" name="Module_A8" display-name="Module_A8" uuid="ebb223dd-a6f5-4801-934a-2c36a098b78c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<designed target="X" value="115"/>
 		<designed target="Y" value="16"/>
 		<designed target="Rotation" value="0"/>
 		<designed target="Scale" value="1"/>
 		<designed target="Visible" value="true"/>
 		<designed target="Enabled" value="true"/>
 		<designed target="Tooltip" value=""/>
-		<designed target="Width" value="24"/>
+		<designed target="Width" value="12"/>
 		<designed target="Height" value="80"/>
 		<designed target="RoundingRadius" value="0"/>
 		<designed target="PenColor" value="4278190080"/>
@@ -1416,7 +2171,25 @@
 		<designed target="PenWidth" value="1"/>
 		<designed target="BrushColor" value="0xffb7b7b7"/>
 		<designed target="BrushStyle" value="1"/>
-		<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="4146b9bf-e755-409f-89bb-f04028520592" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<do-trace access-modifier="private" target="BrushColor">
+			<conditional-expr>
+				<condition>
+					<![CDATA[here.A8_Fault.Value!=1 || here.A8_Fault.Quality<192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffb7b7b7]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[here.A8_Fault.Value==1 || here.A8_Fault.Quality>=192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+		<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="45b72ddc-4544-45d7-9208-bfb6ac13c806" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
 			<designed target="X" value="0"/>
 			<designed target="Y" value="73"/>
 			<designed target="Rotation" value="0"/>
@@ -1424,7 +2197,7 @@
 			<designed target="Visible" value="true"/>
 			<designed target="Enabled" value="true"/>
 			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="24"/>
+			<designed target="Width" value="12"/>
 			<designed target="Height" value="7"/>
 			<designed target="RoundingRadius" value="0"/>
 			<designed target="PenColor" value="4278190080"/>
@@ -1433,23 +2206,23 @@
 			<designed target="BrushColor" value="4278190080"/>
 			<designed target="BrushStyle" value="0"/>
 		</object>
-		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="4aa64530-7429-4b27-8231-a1c5b52a567f" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="15"/>
-			<designed target="Y" value="35"/>
+		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="ee67e320-d4bc-42a6-90fe-4e9494001de1" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<designed target="X" value="3"/>
+			<designed target="Y" value="47"/>
 			<designed target="Rotation" value="0"/>
 			<designed target="Scale" value="1"/>
 			<designed target="Visible" value="true"/>
 			<designed target="Enabled" value="true"/>
 			<designed target="Tooltip" value=""/>
 			<designed target="Width" value="6"/>
-			<designed target="Height" value="11"/>
+			<designed target="Height" value="22"/>
 			<designed target="RoundingRadius" value="1"/>
 			<designed target="PenColor" value="4278190080"/>
 			<designed target="PenStyle" value="1"/>
 			<designed target="PenWidth" value="1"/>
 			<designed target="BrushColor" value="0xffe0e0e0"/>
 			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="39145e62-9702-4155-8c97-0bfdcfeb07d5" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="366e0f56-e709-44ec-9fe2-22567ad5a69b" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
 				<designed target="X" value="2"/>
 				<designed target="Y" value="-2"/>
 				<designed target="Rotation" value="0"/>
@@ -1466,9 +2239,9 @@
 				<designed target="BrushColor" value="4278190080"/>
 				<designed target="BrushStyle" value="0"/>
 			</object>
-			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="d9c15444-27cc-42bb-9d59-47d9e9f7b948" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="acfb663b-d589-4166-9308-17e11555010f" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
 				<designed target="X" value="2"/>
-				<designed target="Y" value="11"/>
+				<designed target="Y" value="22"/>
 				<designed target="Rotation" value="0"/>
 				<designed target="Scale" value="1"/>
 				<designed target="Visible" value="true"/>
@@ -1484,377 +2257,7 @@
 				<designed target="BrushStyle" value="0"/>
 			</object>
 		</object>
-		<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="638e2cc7-2535-43c5-88de-2411e36479a5" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="0"/>
-			<designed target="Y" value="0"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="24"/>
-			<designed target="Height" value="7"/>
-			<designed target="RoundingRadius" value="1"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="4278190080"/>
-			<designed target="BrushStyle" value="0"/>
-			<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="e985a05f-8b01-44ad-964b-c25499a6c010" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-				<designed target="X" value="6"/>
-				<designed target="Y" value="3"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="f8f9ad30-d4c2-4135-957a-d85d88d89fb2" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-				<designed target="X" value="16"/>
-				<designed target="Y" value="3"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-		</object>
-		<object access-modifier="private" name="Rectangle_4" display-name="Rectangle_4" uuid="c54af9d3-3f58-443f-bc21-381abea8077c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="0"/>
-			<designed target="Y" value="7"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="24"/>
-			<designed target="Height" value="21"/>
-			<designed target="RoundingRadius" value="1"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="0xffe0e0e0"/>
-			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="d5ef2227-2139-48a8-b0d9-afe19c9eda96" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="20"/>
-				<designed target="Y" value="3"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="ecda3c89-95c3-4c3e-ad61-58aa2b2f5d3a" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="20"/>
-				<designed target="Y" value="5"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-		</object>
-		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="9b52a632-82d2-4301-851a-766f81903d2a" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
-			<designed target="X" value="12"/>
-			<designed target="Y" value="85"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="7"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="0xffb7b7b7"/>
-			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="25af5bf7-f68e-4f23-ae64-e38560408139" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="0"/>
-				<designed target="Y" value="0"/>
-			</object>
-			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="18a1b833-432d-46a3-9453-3765ca211af6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="0"/>
-				<designed target="Y" value="-5"/>
-			</object>
-			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="61e22c98-d4b1-45fe-9d98-cbdd580b9cbf" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="12"/>
-				<designed target="Y" value="-5"/>
-			</object>
-			<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="8d01d7a6-69c2-4da1-a0dd-1021cdb225e2" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="12"/>
-				<designed target="Y" value="0"/>
-			</object>
-			<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="64cf4911-73cb-4092-9116-3c8329b48fc8" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="9"/>
-				<designed target="Y" value="2"/>
-			</object>
-			<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="3ad4603a-7cac-46dc-a46f-17a1071d7904" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="3"/>
-				<designed target="Y" value="2"/>
-			</object>
-			<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="6c5d8b49-ac22-44c2-97a5-50350e1ed569" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-				<designed target="X" value="0"/>
-				<designed target="Y" value="0"/>
-			</object>
-			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="6f56043c-a544-41c4-aeb7-783c7da24a3c" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-				<designed target="X" value="5"/>
-				<designed target="Y" value="-3"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-		</object>
-		<object access-modifier="private" name="Rectangle_5" display-name="Rectangle_5" uuid="28a95818-e9c6-4ed6-a81d-8056abadabe0" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="3"/>
-			<designed target="Y" value="31"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="8"/>
-			<designed target="Height" value="3"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="4278190080"/>
-			<designed target="BrushStyle" value="1"/>
-		</object>
-		<object access-modifier="private" name="Rectangle_6" display-name="Rectangle_6" uuid="9c3050d5-034f-4f57-a1b0-3f98b670ef45" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="15"/>
-			<designed target="Y" value="60"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="6"/>
-			<designed target="Height" value="11"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="0xffe0e0e0"/>
-			<designed target="BrushStyle" value="1"/>
-		</object>
-		<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="e95995e9-bc68-4c21-b80a-d0a7dec128c8" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="13"/>
-			<designed target="Y" value="51"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="8"/>
-			<designed target="Height" value="7"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="4278190080"/>
-			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="2895e10d-fda2-4b9d-8d1f-4e327588c337" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="3"/>
-				<designed target="Y" value="1"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="5"/>
-				<designed target="Height" value="5"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="0xffe0e0e0"/>
-				<designed target="BrushStyle" value="1"/>
-			</object>
-			<object access-modifier="private" name="Rectangle_8" display-name="Rectangle_8" uuid="c42aa0e1-4045-4566-8356-de669ea498b2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="1"/>
-				<designed target="Y" value="2"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="3"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="0xffe0e0e0"/>
-				<designed target="BrushStyle" value="1"/>
-			</object>
-			<object access-modifier="private" name="Rectangle_9" display-name="Rectangle_9" uuid="8d7b2c7d-acb4-4e37-9215-d000502bb097" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="0"/>
-				<designed target="Y" value="0"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="3"/>
-				<designed target="Height" value="2"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="0xffe0e0e0"/>
-				<designed target="BrushStyle" value="1"/>
-			</object>
-			<object access-modifier="private" name="Rectangle_10" display-name="Rectangle_10" uuid="8fd71bd3-85e6-494f-ba0e-73e8dc19d805" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="0"/>
-				<designed target="Y" value="5"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="3"/>
-				<designed target="Height" value="2"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="0xffe0e0e0"/>
-				<designed target="BrushStyle" value="1"/>
-			</object>
-		</object>
-	</object>
-	<object access-modifier="private" name="Module_A1" display-name="Module_A1" uuid="ab7a6419-d06a-4a57-8921-85f431650be6" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-		<designed target="X" value="19"/>
-		<designed target="Y" value="16"/>
-		<designed target="Rotation" value="0"/>
-		<designed target="Scale" value="1"/>
-		<designed target="Visible" value="true"/>
-		<designed target="Enabled" value="true"/>
-		<designed target="Tooltip" value=""/>
-		<designed target="Width" value="12"/>
-		<designed target="Height" value="80"/>
-		<designed target="RoundingRadius" value="0"/>
-		<designed target="PenColor" value="4278190080"/>
-		<designed target="PenStyle" value="1"/>
-		<designed target="PenWidth" value="1"/>
-		<designed target="BrushColor" value="0xffb7b7b7"/>
-		<designed target="BrushStyle" value="1"/>
-		<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="d7aa8195-357e-4189-ac0c-b19c7453e06d" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="0"/>
-			<designed target="Y" value="73"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="7"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="4278190080"/>
-			<designed target="BrushStyle" value="0"/>
-		</object>
-		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="7dd7578e-dbd6-4b73-9fbc-566f967a7f42" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="3"/>
-			<designed target="Y" value="35"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="6"/>
-			<designed target="Height" value="11"/>
-			<designed target="RoundingRadius" value="2"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="0xffe0e0e0"/>
-			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="1529b7e3-b2af-471f-a057-7a5b541ffee1" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
-				<designed target="X" value="1.5"/>
-				<designed target="Y" value="3"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="3"/>
-				<designed target="Height" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-				<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="e39dbeed-7cfb-46ac-a89f-52f10b89da11" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-					<designed target="X" value="0"/>
-					<designed target="Y" value="0"/>
-				</object>
-				<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="ca263653-7554-4c0e-a975-0b9eb6414a91" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
-					<designed target="X" value="3"/>
-					<designed target="Y" value="0"/>
-				</object>
-			</object>
-			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="21874feb-2370-4d09-90ce-79f581425363" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
-				<designed target="X" value="2"/>
-				<designed target="Y" value="6"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
-		</object>
-		<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="fdf195da-524a-4779-b3f2-d5ca83beb08c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="9db6d013-da01-4892-8bdd-108b6addac38" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
 			<designed target="X" value="0"/>
 			<designed target="Y" value="0"/>
 			<designed target="Rotation" value="0"/>
@@ -1870,7 +2273,7 @@
 			<designed target="PenWidth" value="1"/>
 			<designed target="BrushColor" value="4278190080"/>
 			<designed target="BrushStyle" value="0"/>
-			<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="8b4bfd99-74b7-4280-9592-3901acc2e3d9" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+			<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="8022800b-2bc8-4f61-a027-24a5455939fa" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
 				<designed target="X" value="5"/>
 				<designed target="Y" value="3"/>
 				<designed target="Rotation" value="0"/>
@@ -1887,7 +2290,7 @@
 				<designed target="BrushStyle" value="0"/>
 			</object>
 		</object>
-		<object access-modifier="private" name="Rectangle_4" display-name="Rectangle_4" uuid="e4ad61c9-9589-4ba5-8c0a-ed7b50f880dd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+		<object access-modifier="private" name="Rectangle_4" display-name="Rectangle_4" uuid="aa8e9dcf-2efe-43af-8b64-106a71b2dcf2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
 			<designed target="X" value="0"/>
 			<designed target="Y" value="7"/>
 			<designed target="Rotation" value="0"/>
@@ -1903,8 +2306,8 @@
 			<designed target="PenWidth" value="1"/>
 			<designed target="BrushColor" value="0xffe0e0e0"/>
 			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="89e7be8e-e39e-4540-a897-42736ac5f428" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="2"/>
+			<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="c30d1434-d653-47b6-9d94-2dbf9c4a865e" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="8"/>
 				<designed target="Y" value="3"/>
 				<designed target="Rotation" value="0"/>
 				<designed target="Scale" value="1"/>
@@ -1920,8 +2323,8 @@
 				<designed target="BrushColor" value="4278190080"/>
 				<designed target="BrushStyle" value="0"/>
 			</object>
-			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="1c9c4bc3-1166-4b70-a39b-89808774113a" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="2"/>
+			<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="61bd2f0a-34be-440c-846d-fe02e0809a74" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
+				<designed target="X" value="8"/>
 				<designed target="Y" value="5"/>
 				<designed target="Rotation" value="0"/>
 				<designed target="Scale" value="1"/>
@@ -1937,25 +2340,8 @@
 				<designed target="BrushColor" value="4278190080"/>
 				<designed target="BrushStyle" value="0"/>
 			</object>
-			<object access-modifier="private" name="Rectangle_3" display-name="Rectangle_3" uuid="737606c0-dc56-41f8-ae00-ed6aa5ab08cd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-				<designed target="X" value="2"/>
-				<designed target="Y" value="7"/>
-				<designed target="Rotation" value="0"/>
-				<designed target="Scale" value="1"/>
-				<designed target="Visible" value="true"/>
-				<designed target="Enabled" value="true"/>
-				<designed target="Tooltip" value=""/>
-				<designed target="Width" value="2"/>
-				<designed target="Height" value="2"/>
-				<designed target="RoundingRadius" value="0"/>
-				<designed target="PenColor" value="4278190080"/>
-				<designed target="PenStyle" value="1"/>
-				<designed target="PenWidth" value="1"/>
-				<designed target="BrushColor" value="4278190080"/>
-				<designed target="BrushStyle" value="0"/>
-			</object>
 		</object>
-		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="f2db2df2-7149-4d9e-8a33-e55c5b51b7df" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
+		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="5fc9c195-ff3c-4d6e-8452-af95c97e03f7" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba">
 			<designed target="X" value="0"/>
 			<designed target="Y" value="85"/>
 			<designed target="Rotation" value="0"/>
@@ -1970,35 +2356,35 @@
 			<designed target="PenWidth" value="1"/>
 			<designed target="BrushColor" value="0xffb7b7b7"/>
 			<designed target="BrushStyle" value="1"/>
-			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="1fccfc87-45ef-4c01-aae6-f2292b46b38f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="c5c4a2e0-8300-4ff4-913d-5d9bad2b5cde" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="0"/>
 				<designed target="Y" value="0"/>
 			</object>
-			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="9574b464-f76b-4461-8466-83facc99da09" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="9e153f3e-bfef-4a6e-9b47-db9d292c4780" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="0"/>
 				<designed target="Y" value="-5"/>
 			</object>
-			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="fed342a3-400c-438d-a28e-d160c1a9f22a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="9f138150-5ec2-48e1-bd64-e306598d9256" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="12"/>
 				<designed target="Y" value="-5"/>
 			</object>
-			<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="333e7605-aea4-460a-bd7f-7a53a572c4a6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="664eb625-2aaf-40bb-828c-91e5425135c8" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="12"/>
 				<designed target="Y" value="0"/>
 			</object>
-			<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="2e10e7e2-611c-416d-a757-46931fbe811f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="e01a2f7a-a309-4fe9-9481-886ba98f6d5f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="9"/>
 				<designed target="Y" value="2"/>
 			</object>
-			<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="d8b5c803-2051-4e78-b8a7-46e357b4205e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="dc01c3e1-af02-4d9a-b97f-2ab108415c06" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="3"/>
 				<designed target="Y" value="2"/>
 			</object>
-			<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="d6080d00-6820-425f-8717-10b961388a52" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
+			<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="52b316ff-1986-4462-a7b2-cf15f72e88a0" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6">
 				<designed target="X" value="0"/>
 				<designed target="Y" value="0"/>
 			</object>
-			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="ffcdfc3b-ddec-40c4-a98b-75d9d3a1990a" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
+			<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="52d6e6e3-8248-4ce4-b96f-904a1cc4e6e2" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd">
 				<designed target="X" value="5"/>
 				<designed target="Y" value="-3"/>
 				<designed target="Rotation" value="0"/>
@@ -2014,145 +2400,6 @@
 				<designed target="BrushColor" value="4278190080"/>
 				<designed target="BrushStyle" value="0"/>
 			</object>
-		</object>
-		<object access-modifier="private" name="Rectangle_6" display-name="Rectangle_6" uuid="cbd83b8a-ce57-4da2-939b-ecb92a4b7b37" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="2"/>
-			<designed target="Y" value="52"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="8"/>
-			<designed target="Height" value="3"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="4278190080"/>
-			<designed target="BrushStyle" value="1"/>
-		</object>
-		<object access-modifier="private" name="Rectangle_7" display-name="Rectangle_7" uuid="2acd43e0-c588-41ec-9122-e108acbe24b1" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca">
-			<designed target="X" value="3"/>
-			<designed target="Y" value="60"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="6"/>
-			<designed target="Height" value="11"/>
-			<designed target="RoundingRadius" value="0"/>
-			<designed target="PenColor" value="4278190080"/>
-			<designed target="PenStyle" value="1"/>
-			<designed target="PenWidth" value="1"/>
-			<designed target="BrushColor" value="0xffe0e0e0"/>
-			<designed target="BrushStyle" value="1"/>
-		</object>
-		<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="cad437f4-372a-49c6-8dc6-d11d08d8b885" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="0"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A1"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_2" display-name="Text_2" uuid="80128d01-05fe-45ae-b55f-3bf49b3945f0" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="24"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A2"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_3" display-name="Text_3" uuid="0d0567de-0ed1-4a06-b75a-5514fa24e272" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="36"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A3"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_4" display-name="Text_4" uuid="fd5f1151-ad97-49c7-8dfe-a39802ba4ea2" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="48"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A4"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_5" display-name="Text_5" uuid="900444a4-c3cd-4b83-bb58-36c846186e1e" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="60"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A5"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_6" display-name="Text_6" uuid="c5275272-5ee1-4a39-a7da-3970cb76e6a8" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="73"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A6"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
-		</object>
-		<object access-modifier="private" name="Text_7" display-name="Text_7" uuid="2be9fd41-763c-429b-bb5f-7b4d78714893" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
-			<designed target="X" value="84"/>
-			<designed target="Y" value="87"/>
-			<designed target="Rotation" value="0"/>
-			<designed target="Scale" value="1"/>
-			<designed target="Visible" value="true"/>
-			<designed target="Enabled" value="true"/>
-			<designed target="Tooltip" value=""/>
-			<designed target="Width" value="12"/>
-			<designed target="Height" value="10"/>
-			<designed target="Text" value="A7"/>
-			<designed target="Font" value="Arial,4,-1,5,75,0,0,0,0,0"/>
-			<designed target="FontColor" value="0xfff9f9f9"/>
-			<designed target="TextAlignment" value="132"/>
 		</object>
 	</object>
 	<object access-modifier="private" name="Name" display-name="Name" uuid="8b82bf79-5cd1-4290-9c9e-5a1d1333e836" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f">
